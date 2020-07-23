@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Alerts", "Alerts\Alerts.vbproj", "{954AF9FD-0261-45BA-B486-C9B8DCB8FAA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{954AF9FD-0261-45BA-B486-C9B8DCB8FAA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954AF9FD-0261-45BA-B486-C9B8DCB8FAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954AF9FD-0261-45BA-B486-C9B8DCB8FAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954AF9FD-0261-45BA-B486-C9B8DCB8FAA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4244812-C75B-4957-8902-D02E43CBF9A6}
+	EndGlobalSection
+EndGlobal
