@@ -13,3 +13,5 @@ C:\Users\samru\source\repos\Alerts\Alerts\obj\Debug\Alerts.vbproj.CopyComplete
 C:\Users\samru\source\repos\Alerts\Alerts\obj\Debug\Alerts.exe
 C:\Users\samru\source\repos\Alerts\Alerts\obj\Debug\Alerts.xml
 C:\Users\samru\source\repos\Alerts\Alerts\obj\Debug\Alerts.pdb
+C:\Users\samru\source\repos\Alerts\Alerts\obj\Debug\Alerts.dangerAlert.resources
+C:\Users\samru\source\repos\Alerts\Alerts\obj\Debug\Alerts.successAlert.resources

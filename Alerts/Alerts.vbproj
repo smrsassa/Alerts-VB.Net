@@ -80,7 +80,19 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alert\dangerAlert.Designer.vb">
+      <DependentUpon>dangerAlert.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Alert\dangerAlert.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Alert\funcAlert.vb" />
+    <Compile Include="Alert\successAlert.Designer.vb">
+      <DependentUpon>successAlert.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Alert\successAlert.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Alert\testAlert.Designer.vb">
       <DependentUpon>testAlert.vb</DependentUpon>
     </Compile>
@@ -111,6 +123,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Alert\dangerAlert.resx">
+      <DependentUpon>dangerAlert.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alert\successAlert.resx">
+      <DependentUpon>successAlert.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Alert\testAlert.resx">
       <DependentUpon>testAlert.vb</DependentUpon>
     </EmbeddedResource>
