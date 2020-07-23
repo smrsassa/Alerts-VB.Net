@@ -71,7 +71,7 @@ Partial Class warningAlert
         Me.IconPictureBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.IconPictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(18, Byte), Integer))
-        Me.IconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.CheckCircle
+        Me.IconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.ExclamationCircle
         Me.IconPictureBox1.IconColor = System.Drawing.Color.White
         Me.IconPictureBox1.IconSize = 144
         Me.IconPictureBox1.Location = New System.Drawing.Point(45, 12)

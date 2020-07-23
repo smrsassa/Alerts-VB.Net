@@ -4,6 +4,8 @@ Public Class warningAlert
     Public Sub New()
         InitializeComponent()
 
+        Me.StartPosition = FormStartPosition.CenterScreen
+
         Me.Text = String.Empty
         Me.ControlBox = False
         Me.DoubleBuffered = True
