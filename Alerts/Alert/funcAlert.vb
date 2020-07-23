@@ -1,5 +1,7 @@
 ﻿Public Class funcAlert
-    Public Function showAlert(msg As String)
-
+    Function showAlert(msg As String)
+        warningAlert.msg = msg
+        warningAlert.Show()
     End Function
 End Class
+
