@@ -87,6 +87,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Alert\funcAlert.vb" />
+    <Compile Include="Alert\questionAlert.Designer.vb">
+      <DependentUpon>questionAlert.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Alert\questionAlert.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Alert\successAlert.Designer.vb">
       <DependentUpon>successAlert.vb</DependentUpon>
     </Compile>
@@ -125,6 +131,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Alert\dangerAlert.resx">
       <DependentUpon>dangerAlert.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alert\questionAlert.resx">
+      <DependentUpon>questionAlert.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Alert\successAlert.resx">
       <DependentUpon>successAlert.vb</DependentUpon>

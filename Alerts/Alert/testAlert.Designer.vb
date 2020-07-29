@@ -26,6 +26,7 @@ Partial Class testAlert
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.btnQuestion = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btn_success
@@ -73,12 +74,25 @@ Partial Class testAlert
         Me.Button4.Text = "Alerta Padrão"
         Me.Button4.UseVisualStyleBackColor = True
         '
+        'btnQuestion
+        '
+        Me.btnQuestion.BackColor = System.Drawing.Color.DarkSlateGray
+        Me.btnQuestion.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnQuestion.ForeColor = System.Drawing.Color.White
+        Me.btnQuestion.Location = New System.Drawing.Point(30, 187)
+        Me.btnQuestion.Name = "btnQuestion"
+        Me.btnQuestion.Size = New System.Drawing.Size(132, 47)
+        Me.btnQuestion.TabIndex = 4
+        Me.btnQuestion.Text = "Danger"
+        Me.btnQuestion.UseVisualStyleBackColor = False
+        '
         'testAlert
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(143, Byte), Integer), CType(CType(166, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(372, 199)
+        Me.ClientSize = New System.Drawing.Size(372, 267)
+        Me.Controls.Add(Me.btnQuestion)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -93,4 +107,5 @@ Partial Class testAlert
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
+    Friend WithEvents btnQuestion As Button
 End Class

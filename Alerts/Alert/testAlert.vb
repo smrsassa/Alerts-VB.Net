@@ -12,4 +12,11 @@
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         MsgBox("teste")
     End Sub
+    Private Sub btnQuestion_Click(sender As Object, e As EventArgs) Handles btnQuestion.Click
+        If alert.showQuestion("Testando...") Then
+            alert.showAlert("success", "Sim")
+        Else
+            alert.showAlert("danger", "Não")
+        End If
+    End Sub
 End Class
