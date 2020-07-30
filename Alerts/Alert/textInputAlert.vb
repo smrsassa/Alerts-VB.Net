@@ -15,6 +15,7 @@ Public Class textInputAlert
         Label.Text = msg
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Button1.Text = TextBox1.Text
         Me.DialogResult = Windows.Forms.DialogResult.OK
     End Sub
     <DllImport("user32.DLL", EntryPoint:="ReleaseCapture")>

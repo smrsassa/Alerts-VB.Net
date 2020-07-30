@@ -27,6 +27,7 @@ Partial Class testAlert
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.btnQuestion = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btn_success
@@ -34,7 +35,7 @@ Partial Class testAlert
         Me.btn_success.BackColor = System.Drawing.Color.FromArgb(CType(CType(39, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(96, Byte), Integer))
         Me.btn_success.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_success.ForeColor = System.Drawing.Color.White
-        Me.btn_success.Location = New System.Drawing.Point(30, 27)
+        Me.btn_success.Location = New System.Drawing.Point(206, 34)
         Me.btn_success.Name = "btn_success"
         Me.btn_success.Size = New System.Drawing.Size(132, 47)
         Me.btn_success.TabIndex = 0
@@ -46,7 +47,7 @@ Partial Class testAlert
         Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(18, Byte), Integer))
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(206, 27)
+        Me.Button2.Location = New System.Drawing.Point(206, 113)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(132, 47)
         Me.Button2.TabIndex = 1
@@ -67,7 +68,7 @@ Partial Class testAlert
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(206, 113)
+        Me.Button4.Location = New System.Drawing.Point(30, 34)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(132, 47)
         Me.Button4.TabIndex = 3
@@ -86,12 +87,22 @@ Partial Class testAlert
         Me.btnQuestion.Text = "Danger"
         Me.btnQuestion.UseVisualStyleBackColor = False
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(206, 187)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(132, 47)
+        Me.Button1.TabIndex = 5
+        Me.Button1.Text = "Input de texto"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'testAlert
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(143, Byte), Integer), CType(CType(166, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(372, 267)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.btnQuestion)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
@@ -108,4 +119,5 @@ Partial Class testAlert
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents btnQuestion As Button
+    Friend WithEvents Button1 As Button
 End Class
