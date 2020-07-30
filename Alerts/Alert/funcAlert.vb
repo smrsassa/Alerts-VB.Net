@@ -21,6 +21,14 @@
             Else
                 Return False
             End If
+        ElseIf alert = "input" Then
+            Dim input = New textInputAlert
+
+            input.msg = msg
+            If input.ShowDialog() = Windows.Forms.DialogResult.OK Then
+                Dim textBoxValue As String = input.Button1.Text
+                Return textBoxValue
+            End If
         End If
     End Function
 End Class
