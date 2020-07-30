@@ -16,3 +16,4 @@ C:\Users\samru\source\repos\Alerts\Alerts\obj\Debug\Alerts.pdb
 C:\Users\samru\source\repos\Alerts\Alerts\obj\Debug\Alerts.dangerAlert.resources
 C:\Users\samru\source\repos\Alerts\Alerts\obj\Debug\Alerts.successAlert.resources
 C:\Users\samru\source\repos\Alerts\Alerts\obj\Debug\Alerts.questionAlert.resources
+C:\Users\samru\source\repos\Alerts\Alerts\obj\Debug\Alerts.textInputAlert.resources

@@ -9,19 +9,18 @@
         ElseIf alert = "danger" Then
             dangerAlert.msg = msg
             dangerAlert.Show()
-        End If
-    End Function
-    Function showQuestion(msg As String)
-        Dim question = New questionAlert
+        ElseIf alert = "question" Then
+            Dim question = New questionAlert
 
-        question.msg = msg
-        If question.ShowDialog() = Windows.Forms.DialogResult.OK Then
-            Dim textBoxValue As String = question.Button1.Text
-            If textBoxValue Is "Sim" Then
-                Return True
+            question.msg = msg
+            If question.ShowDialog() = Windows.Forms.DialogResult.OK Then
+                Dim textBoxValue As String = question.Button1.Text
+                If textBoxValue Is "Sim" Then
+                    Return True
+                End If
+            Else
+                Return False
             End If
-        Else
-            Return False
         End If
     End Function
 End Class

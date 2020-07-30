@@ -105,6 +105,12 @@
     <Compile Include="Alert\testAlert.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Alert\textInputAlert.Designer.vb">
+      <DependentUpon>textInputAlert.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Alert\textInputAlert.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Alert\warningAlert.Designer.vb">
       <DependentUpon>warningAlert.vb</DependentUpon>
     </Compile>
@@ -140,6 +146,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Alert\testAlert.resx">
       <DependentUpon>testAlert.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alert\textInputAlert.resx">
+      <DependentUpon>textInputAlert.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Alert\warningAlert.resx">
       <DependentUpon>warningAlert.vb</DependentUpon>

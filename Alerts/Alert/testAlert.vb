@@ -13,7 +13,7 @@
         MsgBox("teste")
     End Sub
     Private Sub btnQuestion_Click(sender As Object, e As EventArgs) Handles btnQuestion.Click
-        If alert.showQuestion("Testando...") Then
+        If alert.showAlert("question", "Testando...") Then
             alert.showAlert("success", "Sim")
         Else
             alert.showAlert("danger", "Não")
