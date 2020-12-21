@@ -22,58 +22,58 @@ Partial Class testAlert
     'Não o modifique usando o editor de códigos.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btn_success = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.btnSuccess = New System.Windows.Forms.Button()
+        Me.btnWarning = New System.Windows.Forms.Button()
+        Me.btnDanger = New System.Windows.Forms.Button()
+        Me.btnPadrao = New System.Windows.Forms.Button()
         Me.btnQuestion = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnInptTexto = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'btn_success
+        'btnSuccess
         '
-        Me.btn_success.BackColor = System.Drawing.Color.FromArgb(CType(CType(39, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(96, Byte), Integer))
-        Me.btn_success.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_success.ForeColor = System.Drawing.Color.White
-        Me.btn_success.Location = New System.Drawing.Point(206, 34)
-        Me.btn_success.Name = "btn_success"
-        Me.btn_success.Size = New System.Drawing.Size(132, 47)
-        Me.btn_success.TabIndex = 0
-        Me.btn_success.Text = "Success"
-        Me.btn_success.UseVisualStyleBackColor = False
+        Me.btnSuccess.BackColor = System.Drawing.Color.FromArgb(CType(CType(39, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(96, Byte), Integer))
+        Me.btnSuccess.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSuccess.ForeColor = System.Drawing.Color.White
+        Me.btnSuccess.Location = New System.Drawing.Point(206, 34)
+        Me.btnSuccess.Name = "btnSuccess"
+        Me.btnSuccess.Size = New System.Drawing.Size(132, 47)
+        Me.btnSuccess.TabIndex = 0
+        Me.btnSuccess.Text = "Success"
+        Me.btnSuccess.UseVisualStyleBackColor = False
         '
-        'Button2
+        'btnWarning
         '
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(18, Byte), Integer))
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(206, 113)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(132, 47)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Warning"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.btnWarning.BackColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(18, Byte), Integer))
+        Me.btnWarning.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnWarning.ForeColor = System.Drawing.Color.White
+        Me.btnWarning.Location = New System.Drawing.Point(206, 113)
+        Me.btnWarning.Name = "btnWarning"
+        Me.btnWarning.Size = New System.Drawing.Size(132, 47)
+        Me.btnWarning.TabIndex = 1
+        Me.btnWarning.Text = "Warning"
+        Me.btnWarning.UseVisualStyleBackColor = False
         '
-        'Button3
+        'btnDanger
         '
-        Me.Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(43, Byte), Integer))
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Location = New System.Drawing.Point(30, 113)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(132, 47)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Danger"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.btnDanger.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(43, Byte), Integer))
+        Me.btnDanger.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnDanger.ForeColor = System.Drawing.Color.White
+        Me.btnDanger.Location = New System.Drawing.Point(30, 113)
+        Me.btnDanger.Name = "btnDanger"
+        Me.btnDanger.Size = New System.Drawing.Size(132, 47)
+        Me.btnDanger.TabIndex = 2
+        Me.btnDanger.Text = "Danger"
+        Me.btnDanger.UseVisualStyleBackColor = False
         '
-        'Button4
+        'btnPadrao
         '
-        Me.Button4.Location = New System.Drawing.Point(30, 34)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(132, 47)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Alerta Padrão"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.btnPadrao.Location = New System.Drawing.Point(30, 34)
+        Me.btnPadrao.Name = "btnPadrao"
+        Me.btnPadrao.Size = New System.Drawing.Size(132, 47)
+        Me.btnPadrao.TabIndex = 3
+        Me.btnPadrao.Text = "Alerta Padrão"
+        Me.btnPadrao.UseVisualStyleBackColor = True
         '
         'btnQuestion
         '
@@ -84,17 +84,17 @@ Partial Class testAlert
         Me.btnQuestion.Name = "btnQuestion"
         Me.btnQuestion.Size = New System.Drawing.Size(132, 47)
         Me.btnQuestion.TabIndex = 4
-        Me.btnQuestion.Text = "Danger"
+        Me.btnQuestion.Text = "Question"
         Me.btnQuestion.UseVisualStyleBackColor = False
         '
-        'Button1
+        'btnInptTexto
         '
-        Me.Button1.Location = New System.Drawing.Point(206, 187)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(132, 47)
-        Me.Button1.TabIndex = 5
-        Me.Button1.Text = "Input de texto"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnInptTexto.Location = New System.Drawing.Point(206, 187)
+        Me.btnInptTexto.Name = "btnInptTexto"
+        Me.btnInptTexto.Size = New System.Drawing.Size(132, 47)
+        Me.btnInptTexto.TabIndex = 5
+        Me.btnInptTexto.Text = "Input de texto"
+        Me.btnInptTexto.UseVisualStyleBackColor = True
         '
         'testAlert
         '
@@ -102,22 +102,22 @@ Partial Class testAlert
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(143, Byte), Integer), CType(CType(166, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(372, 267)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnInptTexto)
         Me.Controls.Add(Me.btnQuestion)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.btn_success)
+        Me.Controls.Add(Me.btnPadrao)
+        Me.Controls.Add(Me.btnDanger)
+        Me.Controls.Add(Me.btnWarning)
+        Me.Controls.Add(Me.btnSuccess)
         Me.Name = "testAlert"
         Me.Text = "testAlert"
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents btn_success As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
+    Friend WithEvents btnSuccess As Button
+    Friend WithEvents btnWarning As Button
+    Friend WithEvents btnDanger As Button
+    Friend WithEvents btnPadrao As Button
     Friend WithEvents btnQuestion As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btnInptTexto As Button
 End Class

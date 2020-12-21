@@ -1,34 +1,36 @@
 ﻿Public Class funcAlert
-    Function showAlert(alert As String, msg As String)
-        If alert = "success" Then
-            successAlert.msg = msg
-            successAlert.Show()
-        ElseIf alert = "warning" Then
-            warningAlert.msg = msg
-            warningAlert.Show()
-        ElseIf alert = "danger" Then
-            dangerAlert.msg = msg
-            dangerAlert.Show()
-        ElseIf alert = "question" Then
-            Dim question = New questionAlert
+    Public Sub success(ByVal msg As String)
+        successAlert.msg = msg
+        successAlert.Show()
+    End Sub
+    Public Sub warning(ByVal msg As String)
+        warningAlert.msg = msg
+        warningAlert.Show()
+    End Sub
+    Public Sub danger(ByVal msg As String)
+        dangerAlert.msg = msg
+        dangerAlert.Show()
+    End Sub
+    Public Function question(ByVal msg As String) As Boolean
+        Dim questionAlert = New questionAlert
 
-            question.msg = msg
-            If question.ShowDialog() = Windows.Forms.DialogResult.OK Then
-                Dim textBoxValue As String = question.Button1.Text
-                If textBoxValue Is "Sim" Then
-                    Return True
-                End If
-            Else
-                Return False
+        questionAlert.msg = msg
+        If questionAlert.ShowDialog() = Windows.Forms.DialogResult.OK Then
+            Dim textBoxValue As String = questionAlert.Button1.Text
+            If textBoxValue Is "Sim" Then
+                Return True
             End If
-        ElseIf alert = "input" Then
-            Dim input = New textInputAlert
+        Else
+            Return False
+        End If
+    End Function
+    Public Function inputText(ByVal msg As String) As String
+        Dim input = New textInputAlert
 
-            input.msg = msg
-            If input.ShowDialog() = Windows.Forms.DialogResult.OK Then
-                Dim textBoxValue As String = input.Button1.Text
-                Return textBoxValue
-            End If
+        input.msg = msg
+        If input.ShowDialog() = Windows.Forms.DialogResult.OK Then
+            Dim textBoxValue As String = input.Button1.Text
+            Return textBoxValue
         End If
     End Function
 End Class

@@ -1,26 +1,26 @@
 ﻿Public Class testAlert
     Private alert As New funcAlert
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btn_success.Click
-        alert.showAlert("success", "Atualizado com sucesso")
+    Private Sub btn_success_click(sender As Object, e As EventArgs) Handles btnSuccess.Click
+        alert.success("Success")
     End Sub
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        alert.showAlert("warning", "Atualizado com sucesso")
+    Private Sub btn_warning_click(sender As Object, e As EventArgs) Handles btnWarning.Click
+        alert.warning("Warning")
     End Sub
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        alert.showAlert("danger", "Atualizado com sucesso")
+    Private Sub btn_danger_click(sender As Object, e As EventArgs) Handles btnDanger.Click
+        alert.danger("Danger")
     End Sub
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+    Private Sub btn_padrao_click(sender As Object, e As EventArgs) Handles btnPadrao.Click
         MsgBox("teste")
     End Sub
-    Private Sub btnQuestion_Click(sender As Object, e As EventArgs) Handles btnQuestion.Click
-        If alert.showAlert("question", "Testando...") Then
-            alert.showAlert("success", "Sim")
+    Private Sub btn_question_click(sender As Object, e As EventArgs) Handles btnQuestion.Click
+        If alert.question("Testando...") Then
+            alert.success("Sim")
         Else
-            alert.showAlert("danger", "Não")
+            alert.danger("Não")
         End If
     End Sub
-    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim resposta = alert.showAlert("input", "Qual seu nome?")
-        alert.showAlert("warning", resposta)
+    Private Sub btn_input_texto_click(sender As Object, e As EventArgs) Handles btnInptTexto.Click
+        Dim resposta = alert.inputText("Qual seu nome?")
+        alert.warning(resposta)
     End Sub
 End Class
